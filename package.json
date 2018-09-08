@@ -1,0 +1,28 @@
+{
+  "name": "less-study",
+  "version": "1.0.0",
+  "description": "less study and summary ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liutaochange/less-study.git"
+  },
+  "keywords": [
+    "less"
+  ],
+  "author": "liutaochange@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liutaochange/less-study/issues"
+  },
+  "homepage": "https://github.com/liutaochange/less-study#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.0"
+  }
+}
