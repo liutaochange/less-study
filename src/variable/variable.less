@@ -1,3 +1,4 @@
+@import "../mixins/mixins.less";
 @width: 300px;
 @bg-color: #5B83AD;
 @font-color: #fff;
@@ -7,4 +8,8 @@
   height: @width;
   background: @bg-color;
   color: @font-color;
+  // .padding-default(); 此时默认padding为10px;
+  .padding-default(20px);
+  .box-sizing;
+  .border-radius-mixin(10px);
 }
